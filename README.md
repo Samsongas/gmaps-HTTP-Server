@@ -2,7 +2,7 @@
 Server that receives a coordinates and generates a google maps link to them.
 
 ## Sending coordinates
-For sending coordinates, a message shal be posted in the format:
+For sending coordinates, a message shall be posted in the format:
 "MAPS:x_coordinate,y_coordinate"
 The message shall be encrypted with AES256ECB, using the encryption key shown in the code.
 
