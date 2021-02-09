@@ -64,7 +64,7 @@ var server = http.createServer(function (req, res) {
 				res.end("Message not recognized\n");
 			}
 		});
-    }
+	}
 });
 
 server.listen(port, hostname, () => {
