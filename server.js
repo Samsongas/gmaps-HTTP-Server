@@ -4,7 +4,7 @@ const port = 8080;
 
 // ========= GLOBAL VARIABLES =================
 // Link with the coordinates to be sent
-var saved_link;
+var saved_link = "No saved link yet";
 
 // ========= CRYPTO MODULE ====================
 const crypto = require('crypto');
