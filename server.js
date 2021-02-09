@@ -38,8 +38,8 @@ var server = http.createServer(function (req, res) {
 		// Body collection
 		var body = "";
 		req.on("data", function (chunk) {
-		body += chunk;
-	});
+			body += chunk;
+		});
 		
 		// Main POST response
 		req.on("end", function(){
